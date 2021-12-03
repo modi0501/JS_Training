@@ -57,14 +57,14 @@ console.log(ageRestrictedArray);
 const customSort = (employeeArray , attribute) => {
 
     const compare = (a , b)=>{
-        if(attribute === "isMarried"){
-            if(a[attribute] === true && b[attribute] === false){
-                return -1;
-            }
-            else if(a[attribute] === false && b[attribute] === true){
-                return 1;
-            }
-            else return 0;
+        
+        if(typeof a[attribute] === "number"){
+            return a[attribute] - b[attribute];
+        }
+        else if(typeof a[attribute] === "boolean"){
+            let aN = Number(a[attribute]);
+            let bN = Number(b[attribute]);
+            return bN - aN;
         }
         else if (a[attribute] > b[attribute]) {
             return 1;
@@ -73,6 +73,7 @@ const customSort = (employeeArray , attribute) => {
             return -1;
         }
         return 0;
+        
     };
 
     employeeArray.sort(compare);
