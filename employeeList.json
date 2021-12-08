@@ -1,1 +1,42 @@
-[{"name":"Mayank Modi","email":"abc@gmail.com","age":20,"address":"Indore, Madhya Pradesh","phoneNumber":"1234567890","gender":"Male","isMarried":false,"salary":592000},{"name":"Sanjay Modi","email":"abc@gmail.com","age":40,"address":"Indore, Madhya Pradesh","phoneNumber":"1234567890","gender":"Male","isMarried":true,"salary":520000},{"name":"Adesh Modi","email":"abc@gmail.com","age":70,"address":"Indore, Madhya Pradesh","phoneNumber":"1234567890","gender":"Male","isMarried":false,"salary":505000},{"name":"Pratham Modi","email":"abc@gmail.com","age":70,"address":"Indore, Madhya Pradesh","phoneNumber":"1234567890","gender":"Male","isMarried":true,"salary":573000}]
+[
+    {
+        "name": "Mayank Modi",
+        "email": "abc@gmail.com",
+        "age": 20,
+        "address": "Indore, Madhya Pradesh",
+        "phoneNumber": "1234567890",
+        "gender": "Male",
+        "isMarried": false,
+        "salary": 592000
+    },
+    {
+        "name": "Sanjay Modi",
+        "email": "abc@gmail.com",
+        "age": 40,
+        "address": "Indore, Madhya Pradesh",
+        "phoneNumber": "1234567890",
+        "gender": "Male",
+        "isMarried": true,
+        "salary": 520000
+    },
+    {
+        "name": "Adesh Modi",
+        "email": "abc@gmail.com",
+        "age": 70,
+        "address": "Indore, Madhya Pradesh",
+        "phoneNumber": "1234567890",
+        "gender": "Male",
+        "isMarried": false,
+        "salary": 505000
+    },
+    {
+        "name": "Pratham Modi",
+        "email": "abc@gmail.com",
+        "age": 70,
+        "address": "Indore, Madhya Pradesh",
+        "phoneNumber": "1234567890",
+        "gender": "Male",
+        "isMarried": true,
+        "salary": 573000
+    }
+]
